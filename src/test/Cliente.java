@@ -31,6 +31,13 @@ public class Cliente {
 		this.nome = nome;
 	}
 	
+	
+	/*
+	 * @ author Brenno Muller
+	 * 
+	 * @return void
+	 */
+	
 	public void cadastrar_endereco(String endereco) {
 		setEndereco(endereco);
 	}
