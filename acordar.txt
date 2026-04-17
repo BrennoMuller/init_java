@@ -1,0 +1,8 @@
+INICIO
+	acordar 
+	levantar 
+	caminhar até o banheiro
+	escovar os dentes
+	caminhar até a cozinha
+	preparar café
+FIM
