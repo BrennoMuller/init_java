@@ -32,12 +32,12 @@ public class Cliente {
 	}
 	
 	
-	/*
-	 * @ author Brenno Muller
+	/**
+	 * @author Brenno Muller
+	 * @deprecated
+	 * @return nada
 	 * 
-	 * @return void
 	 */
-	
 	public void cadastrar_endereco(String endereco) {
 		setEndereco(endereco);
 	}
