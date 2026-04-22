@@ -1,16 +1,23 @@
 package tarefa_colecoes;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class TarefaColecoes {
 	
 	public static void part1(String lista){
-		
+		List<String> nomes = new ArrayList<String>(); 
 		String[] a = lista.split(",");
 		
+		
+		
 		for (String nome : a) {
-		    System.out.println(nome);
+			nomes.add(nome);
 		}
+		
+		Collections.sort(nomes);
+		
+		System.out.println(nomes);
 		
 	}
 	
